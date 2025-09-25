@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica;
+    background-color: #b9d9d9; 
+    color: #1f2937; 
+}
+
+header{
+    background-color: white;
+    padding: 20px; 
+}
+
+main{
+    max-width: 1200px;
+    margin: 10px auto 10px;
+}
+
+#banner{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.banner{
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#clientes{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#imagens1{
+    text-align: center;
+}
+
+.clientes{
+    width: 200px;
+    padding: 40px;
+}
+
+#imagens2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.icones{
+    text-align: left;
+    width: 50px;
+}
+
+.nome_cliente{
+    float: 15px;
+    color: #1f2937;
+}
+
+.comentario{
+    
+    font-style: italic;
+}
+
+#clientes ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+#clientes ul li{
+    background-color: #F3F4F6;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+#servicos{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#servicos ul{
+    padding-left: 20px;
+}
+
+#servicos ul li{
+    padding-top: 5px;
+}
+
+#atendimento{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: #F3F4F6;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1F2937;
+}
+
+nav ul li a:hover{
+    color: #22C55E;
+}
+
+#contato{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+fieldset{
+    border: 2px solid #b9d9d9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    margin: 10px 0px;
+}
+
+.text{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.button{
+    background-color: #3d3d3d;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: #66a6a6;
+}
